@@ -92,3 +92,26 @@ if ($liczba % 4 == 0) {
 ?>
 
 zad.7
+<?php
+
+$liczba = 9;
+
+if ($liczba == 10) {
+    echo "6";
+} elseif ($liczba == 9) {
+    echo "5";
+}
+elseif ($liczba == 7) {
+    echo "4";
+}
+elseif ($liczba == 5) {
+    echo "3";
+}
+elseif ($liczba == 4) {
+    echo "2";
+}
+elseif ($liczba <= 4) {
+    echo "1";
+}
+
+?>
