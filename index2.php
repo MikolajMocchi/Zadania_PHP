@@ -12,3 +12,18 @@ if ($liczba <= -1) {
 }
 
 ?>
+
+zad.2
+<?php
+
+$liczba = 7;
+
+if ($liczba % 2 === 0) {
+    echo "Parzysta";
+} else {
+    echo "Nie parzysta";
+}
+
+?>
+
+zad.3
