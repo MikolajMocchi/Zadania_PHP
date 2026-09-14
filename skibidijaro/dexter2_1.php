@@ -7,14 +7,14 @@
 </head>
 <body>
 <?php
-$prawo = 18;
+$prawo = mt_rand(0, 100);
 
 if ($prawo <= 17) {
     echo "Masz $prawo lat i nie posiadasz prawa for voting";
 } 
 elseif ($prawo >= 18){
     echo "Masz $prawo lat i posiadasz prawa for voting";
-}
+};
 ?>
 </body>
 </html>
