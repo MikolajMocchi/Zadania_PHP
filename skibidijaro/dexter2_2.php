@@ -8,7 +8,7 @@
 <body>
 <?php
 
-$liczba = 0;
+$liczba = mt_rand(-50, 40);
 
 if ($liczba <= -1) {
     echo "Liczba ujemna";
@@ -16,7 +16,7 @@ if ($liczba <= -1) {
     echo "liczba dodatnia";
 } elseif ($liczba == 0) {
     echo "liczba jest równa zero";
-}
+};
 
 ?>
 </body>
