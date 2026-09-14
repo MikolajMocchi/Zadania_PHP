@@ -7,13 +7,13 @@
 </head>
 <body>
 <?php
-$grade = 20 ;
+$grade = mt_rand(1, 100) ;
 if ($grade >= 50) {
     echo "Masz $grade punktów co oznacza że zdałeś";
 }
 else {
     echo "Masz $grade punktów co oznacza że masz skill issue";
-}
+};
 ?>
 </body>
 </html>
