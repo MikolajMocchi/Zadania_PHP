@@ -7,7 +7,7 @@
 </head>
 <body>
 <?php
-$color = 3;
+$color = mt_rand(0,3);
 switch ($color) {
     case 1:
         echo "Czerwony";
