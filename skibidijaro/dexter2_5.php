@@ -7,14 +7,14 @@
 </head>
 <body>
 <?php
-$nickname = "Mocchi" ;
-if ($nickname == " " || $nickname == ""){
+$nickname = strtoupper("Mocchi") ;
+if (empty($nickname)){
     $nickname = "guest";
     echo $nickname;
 }
 else {
     echo $nickname;
-}
+};
 ?>
 </body>
 </html>
